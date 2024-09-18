@@ -12,7 +12,7 @@ def test_q1(capsys):
 
   q1()
   captured = capsys.readouterr()
-  assert captured.out == " * * * * * *\n* * * * * *\n * * * * * *\n* * * * * *\n * * * * * *\n* * * * * *\n\n* * * * *\n*       *\n*       *\n*       *\n* * * * *\n\n* * * * * *\n *       *\n *     *\n  *   *\n   * *\n    *\n"
+  assert captured.out == " * * * * * *\n* * * * * *\n * * * * * *\n* * * * * *\n * * * * * *\n* * * * * *\n\n* * * * *\n*       *\n*       *\n*       *\n* * * * *\n\n* * * * * *\n *       *\n  *     *\n   *   *\n    * *\n     *\n"
 
 
 def test_q2(capsys):
