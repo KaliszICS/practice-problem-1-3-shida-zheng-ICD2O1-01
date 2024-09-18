@@ -25,7 +25,7 @@ def test_q2(capsys):
 
   q2()
   captured = capsys.readouterr()
-  assert captured.out == "Hello World"
+  assert captured.out == "Hello World\n"
 
 def test_q3(capsys):
 
